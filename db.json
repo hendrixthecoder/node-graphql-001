@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "firstName": "Timmy",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Emma",
+      "lastName": "Watson",
+      "email": "emma.watson@example.com",
+      "password": "HermioneGranger"
+    },
+    {
+      "id": 3,
+      "firstName": "Tom",
+      "lastName": "Hanks",
+      "email": "tom.hanks@example.com",
+      "password": "ForrestGump"
+    },
+    {
+      "id": 4,
+      "firstName": "Jennifer",
+      "lastName": "Lawrence",
+      "email": "jennifer.lawrence@example.com",
+      "password": "TheHungerGames"
+    },
+    {
+      "id": 5,
+      "firstName": "Leonardo",
+      "lastName": "DiCaprio",
+      "email": "leonardo.dicaprio@example.com",
+      "password": "Inception"
+    },
+    {
+      "id": 6,
+      "firstName": "Gal",
+      "lastName": "Gadot",
+      "email": "gal.gadot@example.com",
+      "password": "WonderWoman"
+    },
+    {
+      "id": 7,
+      "firstName": "Brad",
+      "lastName": "Pitt",
+      "email": "brad.pitt@example.com",
+      "password": "FightClub"
+    },
+    {
+      "id": 8,
+      "firstName": "Natalie",
+      "lastName": "Portman",
+      "email": "natalie.portman@example.com",
+      "password": "BlackSwan"
+    },
+    {
+      "id": 9,
+      "firstName": "Dwayne",
+      "lastName": "Johnson",
+      "email": "dwayne.johnson@example.com",
+      "password": "TheRock"
+    },
+    {
+      "id": 10,
+      "firstName": "Scarlett",
+      "lastName": "Johansson",
+      "email": "scarlett.johansson@example.com",
+      "password": "BlackWidow"
+    },
+    {
+      "id": 11,
+      "firstName": "Robert",
+      "lastName": "Downey Jr.",
+      "email": "robert.downey@example.com",
+      "password": "IronMan"
+    },
+    {
+      "id": 12,
+      "firstName": "Meryl",
+      "lastName": "Streep",
+      "email": "meryl.streep@example.com",
+      "password": "TheDevilWearsPrada"
+    },
+    {
+      "id": 13,
+      "firstName": "Chris",
+      "lastName": "Evans",
+      "email": "chris.evans@example.com",
+      "password": "CaptainAmerica"
+    },
+    {
+      "id": 14,
+      "firstName": "Angelina",
+      "lastName": "Jolie",
+      "email": "angelina.jolie@example.com",
+      "password": "TombRaider"
+    },
+    {
+      "id": 15,
+      "firstName": "Will",
+      "lastName": "Smith",
+      "email": "will.smith@example.com",
+      "password": "MenInBlack"
+    }
+  ]
+}
