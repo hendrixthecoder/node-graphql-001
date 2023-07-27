@@ -1,8 +1,11 @@
 {
   "users": [
     {
-      "firstName": "Timmy",
-      "id": 1
+      "id": 1,
+      "firstName": "himself",
+      "lastName": "Depp",
+      "email": "johnny.depp@example.com",
+      "password": "WizardOfOz"
     },
     {
       "id": 2,

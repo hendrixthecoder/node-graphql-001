@@ -1,6 +1,6 @@
-const { GraphQLList, GraphQLObjectType } = require("graphql")
+const { GraphQLList, GraphQLObjectType, GraphQLInt, GraphQLNonNull } = require("graphql")
 const UserType = require('../TypeDefs/UserType')
-const { fetchData } = require('../../config')
+const { fetchAllUSers, fetchOneUser } = require('../../config')
 
 const RootQuery = new GraphQLObjectType({
     name: 'Root',
@@ -9,8 +9,17 @@ const RootQuery = new GraphQLObjectType({
         users: {
             type: GraphQLList(UserType),
             resolve: async () => {
-                let users = await fetchData()
+                let users = await fetchAllUSers()
                 return users
+            }
+        },
+        user: {
+            type: UserType,
+            args: { id: { type: GraphQLNonNull(GraphQLInt) } },
+            resolve: async (parent, args) => {
+                const { id } = args
+                let user = await fetchOneUser(id)
+                return user
             }
         }
     }
